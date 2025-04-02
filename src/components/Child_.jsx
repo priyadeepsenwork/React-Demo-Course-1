@@ -1,10 +1,11 @@
-export const Child_ = (props) => {
-    return (
-      <section>
-        <h1>String: {props.name}</h1>
-        <h2>Age: {props.age}</h2>
-        <h2>Married? : {props.isMarried ? "Yes" : "No"}</h2>
-      </section>
-    );
-  };
-  
+export const Child_ = ({ img, name, age, isMarried, hobbies }) => {
+  return (
+    <section>
+      <img src={img} alt={name} width={200} />
+      <h1>String: {name}</h1>
+      <h2>Age: {age}</h2>
+      <h2>Married? : {isMarried ? "Yes" : "No"}</h2>
+      <h2>Hobbies: {hobbies}</h2>
+    </section>
+  );
+};
