@@ -3,6 +3,7 @@ import JSXRules from "./JSXRules";
 import Greeting from "./Greeting";
 import ProductInfo from "./ProductInfo";
 import Lists from "./Lists";
+import UserList from "./UserList";
 
 const MainContent = () => {
   return (
@@ -13,10 +14,12 @@ const MainContent = () => {
         <label htmlFor="name">Name</label>
         <input type="text" placeholder="Enter Your Name" />
       </form>
-      <JSXRules />
-      <ProductInfo />
+      {/* <JSXRules />
       <Greeting />
-      <Lists />
+      <Lists /> */}
+
+      <ProductInfo />
+      <UserList />
     </main>
   );
 };
