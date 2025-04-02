@@ -2,6 +2,7 @@ import React from "react";
 import JSXRules from "./JSXRules";
 import Greeting from "./Greeting";
 import ProductInfo from "./ProductInfo";
+import Lists from "./Lists";
 
 const MainContent = () => {
   return (
@@ -15,6 +16,7 @@ const MainContent = () => {
       <JSXRules />
       <ProductInfo />
       <Greeting />
+      <Lists />
     </main>
   );
 };
