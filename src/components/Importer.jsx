@@ -10,6 +10,8 @@ import Card_Parent from "./tutorials/Card_Parent";
 import PasswordValidity from "./Conditional Rendering/PasswordValidity";
 import Cart from "./Conditional Rendering/Cart";
 import Parent from "./Exercise C..Rendering/Parent";
+import InlineStyles from "./Stylings/InlineStyles";
+import InlineStyles_02 from "./Stylings/InlineStyles_02";
 
 const Importer = () => {
   return (
@@ -22,8 +24,10 @@ const Importer = () => {
       <ProductInfo />
       <Card_Parent />     */}
       {/* <PasswordValidity /> */}
-      <Cart />
-      <Parent />
+      {/* <Cart />
+      <Parent /> */}
+      <InlineStyles />
+      <InlineStyles_02 />
     </main>
   );
 };
