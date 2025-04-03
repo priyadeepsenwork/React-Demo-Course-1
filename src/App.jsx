@@ -1,7 +1,7 @@
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import MainContent from "./components/MainContent";
-import WelcomeMessage from "./components/WelcomeMessage";
+import Footer from "./components/Home/Footer";
+import Header from "./components/Home/Header";
+import MainContent from "./components/Home/MainContent";
+import WelcomeMessage from "./components/Home/WelcomeMessage";
 
 const App = () => {
   return (

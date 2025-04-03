@@ -1,6 +1,6 @@
 import React from "react";
 
-import Importer from "./Importer";
+import Importer from "../Importer";
 
 const MainContent = () => {
   return (

@@ -1,11 +1,11 @@
 import React from "react";
-import JSXRules from "./JSXRules";
-import Greeting from "./Greeting";
-import ProductInfo from "./ProductInfo";
-import Lists from "./Lists";
-import UserList from "./UserList";
+import JSXRules from "./tutorials/JSXRules";
+import Greeting from "./tutorials/Greeting";
+import ProductInfo from "./tutorials/ProductInfo";
+import Lists from "./tutorials/Lists";
+import UserList from "./tutorials/UserList";
 
-import { Parent_ } from "./Parent_";
+import { Parent_ } from "./tutorials/Parent_";
 
 const Importer = () => {
   return (
@@ -13,9 +13,9 @@ const Importer = () => {
       {/* <JSXRules />
       <Greeting />
       <Lists />
-      <ProductInfo />
-      <UserList /> */}
-      <Parent_ />
+      <Parent_ /> */}
+      <UserList />
+      <ProductInfo />    
     </main>
   );
 };
