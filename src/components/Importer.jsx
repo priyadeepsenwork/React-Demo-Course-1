@@ -8,6 +8,8 @@ import UserList from "./tutorials/UserList";
 import { Parent_ } from "./tutorials/Parent_";
 import Card_Parent from "./tutorials/Card_Parent";
 import PasswordValidity from "./Conditional Rendering/PasswordValidity";
+import Cart from "./Conditional Rendering/Cart";
+import Parent from "./Exercise C..Rendering/Parent";
 
 const Importer = () => {
   return (
@@ -19,7 +21,9 @@ const Importer = () => {
       {/* <UserList />
       <ProductInfo />
       <Card_Parent />     */}
-      <PasswordValidity />
+      {/* <PasswordValidity /> */}
+      <Cart />
+      <Parent />
     </main>
   );
 };
