@@ -6,6 +6,7 @@ import Lists from "./tutorials/Lists";
 import UserList from "./tutorials/UserList";
 
 import { Parent_ } from "./tutorials/Parent_";
+import Card_Parent from "./tutorials/Card_Parent";
 
 const Importer = () => {
   return (
@@ -14,8 +15,9 @@ const Importer = () => {
       <Greeting />
       <Lists />
       <Parent_ /> */}
-      <UserList />
-      <ProductInfo />    
+      {/* <UserList />
+      <ProductInfo />
+      <Card_Parent />     */}
     </main>
   );
 };
