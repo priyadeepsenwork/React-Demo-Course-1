@@ -12,6 +12,10 @@ import Cart from "./Conditional Rendering/Cart";
 import Parent from "./Exercise C..Rendering/Parent";
 import InlineStyles from "./Stylings/InlineStyles";
 import InlineStyles_02 from "./Stylings/InlineStyles_02";
+import StyledCard from "./Exercise_02_Stylings/StyledCard";
+import ProfileCard from "./Exercise_02_Stylings/ProfileCard";
+import IconComponent from "./Exercise_02_Stylings/IconComponent";
+import UseButtons from "./Exercise_02_Stylings/UseButtons";
 
 const Importer = () => {
   return (
@@ -26,8 +30,12 @@ const Importer = () => {
       {/* <PasswordValidity /> */}
       {/* <Cart />
       <Parent /> */}
-      <InlineStyles />
-      <InlineStyles_02 />
+      {/* <InlineStyles />
+      <InlineStyles_02 /> */}
+      <StyledCard />
+      <ProfileCard />
+      <IconComponent />
+      <UseButtons />
     </main>
   );
 };
