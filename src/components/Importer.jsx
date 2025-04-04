@@ -37,7 +37,7 @@ const Importer = () => {
       <ProfileCard />
       <IconComponent />
       <UseButtons /> */}
-      <StateManagement />
+      {/* <StateManagement /> */}
     </main>
   );
 };
