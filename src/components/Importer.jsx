@@ -16,7 +16,11 @@ import React from "react";
 // import ProfileCard from "./Exercise_02_Stylings/ProfileCard";
 // import IconComponent from "./Exercise_02_Stylings/IconComponent";
 // import UseButtons from "./Exercise_02_Stylings/UseButtons";
-import StateManagement from "./STATE Management/StateManagement";
+// import StateManagement from "./STATE Management/StateManagement";
+import Counter from "./Exercise_03_StateManagement/Counter";
+import TodoList from "./Exercise_03_StateManagement/TodoList";
+import Profile from "./Exercise_03_StateManagement/Profile";
+import ShoppingList from "./Exercise_03_StateManagement/ShoppingList";
 
 const Importer = () => {
   return (
@@ -38,6 +42,10 @@ const Importer = () => {
       <IconComponent />
       <UseButtons /> */}
       {/* <StateManagement /> */}
+      <Counter />
+      <TodoList />
+      <Profile />
+      <ShoppingList />
     </main>
   );
 };
