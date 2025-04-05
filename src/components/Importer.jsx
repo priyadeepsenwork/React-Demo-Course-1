@@ -21,7 +21,8 @@ import React from "react";
 // import TodoList from "./Exercise_03_StateManagement/TodoList";
 // import Profile from "./Exercise_03_StateManagement/Profile";
 // import ShoppingList from "./Exercise_03_StateManagement/ShoppingList";
-import CopyInput from "./Portal/CopyInput";
+// import CopyInput from "./Portal/CopyInput";
+import One_uEffect from "./THE_useEffect_Hook/One_uEffect";
 
 const Importer = () => {
   return (
@@ -47,7 +48,8 @@ const Importer = () => {
       <TodoList />
       <Profile />
       <ShoppingList /> */}
-      <CopyInput />
+      {/* <CopyInput /> */}
+      <One_uEffect />
     </main>
   );
 };
