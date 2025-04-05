@@ -17,10 +17,11 @@ import React from "react";
 // import IconComponent from "./Exercise_02_Stylings/IconComponent";
 // import UseButtons from "./Exercise_02_Stylings/UseButtons";
 // import StateManagement from "./STATE Management/StateManagement";
-import Counter from "./Exercise_03_StateManagement/Counter";
-import TodoList from "./Exercise_03_StateManagement/TodoList";
-import Profile from "./Exercise_03_StateManagement/Profile";
-import ShoppingList from "./Exercise_03_StateManagement/ShoppingList";
+// import Counter from "./Exercise_03_StateManagement/Counter";
+// import TodoList from "./Exercise_03_StateManagement/TodoList";
+// import Profile from "./Exercise_03_StateManagement/Profile";
+// import ShoppingList from "./Exercise_03_StateManagement/ShoppingList";
+import CopyInput from "./Portal/CopyInput";
 
 const Importer = () => {
   return (
@@ -42,10 +43,11 @@ const Importer = () => {
       <IconComponent />
       <UseButtons /> */}
       {/* <StateManagement /> */}
-      <Counter />
+      {/* <Counter />
       <TodoList />
       <Profile />
-      <ShoppingList />
+      <ShoppingList /> */}
+      <CopyInput />
     </main>
   );
 };
