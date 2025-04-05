@@ -27,7 +27,7 @@ import One_uEffect from "./THE_useEffect_Hook/One_uEffect";
 */
 
 import Exercise_04_importer from "./Exercise_04_useEffect/Exercise_04_importer";
-
+import Prop_driller_importer from "./PropertyDrilling/Prop_driller_importer";
 const Importer = () => {
   return (
     <main>
@@ -58,7 +58,8 @@ const Importer = () => {
       </section>
 
       <section>
-          <Exercise_04_importer />
+          {/* <Exercise_04_importer /> */}
+          <Prop_driller_importer />
       </section>
     </main>
   );
