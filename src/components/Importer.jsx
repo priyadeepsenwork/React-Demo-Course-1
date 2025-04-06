@@ -28,8 +28,9 @@ import One_uEffect from "./THE_useEffect_Hook/One_uEffect";
 
 //import Exercise_04_importer from "./Exercise_04_useEffect/Exercise_04_importer";
 //import Prop_driller_importer from "./PropertyDrilling/Prop_driller_importer";
-import Parent_05 from "./Exercise_05_useContext/Parent_05";
-
+//import Parent_05 from "./Exercise_05_useContext/Parent_05";
+//import Reducer_01 from "./StateManagementWithReducer/Reducer_01";
+import Exercise_06_Parent from "./Exercise_06_Reducer/Exercise_06_Parent";
 
 const Importer = () => {
   return (
@@ -63,7 +64,9 @@ const Importer = () => {
       <section>
           {/* <Exercise_04_importer /> */}
           {/* <Prop_driller_importer /> */}
-          <Parent_05 />
+          {/* <Parent_05 /> */}
+          {/* <Reducer_01 /> */}
+          <Exercise_06_Parent />
       </section>
     </main>
   );
