@@ -31,8 +31,9 @@ import One_uEffect from "./THE_useEffect_Hook/One_uEffect";
 //import Parent_05 from "./Exercise_05_useContext/Parent_05";
 //import Reducer_01 from "./StateManagementWithReducer/Reducer_01";
 //import Exercise_06_Parent from "./Exercise_06_Reducer/Exercise_06_Parent";
-import Reference_useHook from "./useRef Hook/Reference_useHook";
-import Timer from "./useRef Hook/Timer";
+//import Reference_useHook from "./useRef Hook/Reference_useHook";
+//import Timer from "./useRef Hook/Timer";
+import Parent_Custom_Hooks from "./Custom_Hooks_ReactJS/Parent_Custom_Hooks";
 
 const Importer = () => {
   return (
@@ -69,8 +70,9 @@ const Importer = () => {
           {/* <Parent_05 /> */}
           {/* <Reducer_01 /> */}
           {/* <Exercise_06_Parent /> */}
-          <Reference_useHook />
-          <Timer />
+          {/* <Reference_useHook /> */}
+          {/* <Timer /> */}
+          <Parent_Custom_Hooks />
       </section>
     </main>
   );
