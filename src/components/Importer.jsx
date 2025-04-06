@@ -33,7 +33,9 @@ import One_uEffect from "./THE_useEffect_Hook/One_uEffect";
 //import Exercise_06_Parent from "./Exercise_06_Reducer/Exercise_06_Parent";
 //import Reference_useHook from "./useRef Hook/Reference_useHook";
 //import Timer from "./useRef Hook/Timer";
-import Parent_Custom_Hooks from "./Custom_Hooks_ReactJS/Parent_Custom_Hooks";
+//import Parent_Custom_Hooks from "./Custom_Hooks_ReactJS/Parent_Custom_Hooks";
+import UniqueID from "./UseID_ReactJS/UniqueID";
+
 
 const Importer = () => {
   return (
@@ -72,7 +74,12 @@ const Importer = () => {
           {/* <Exercise_06_Parent /> */}
           {/* <Reference_useHook /> */}
           {/* <Timer /> */}
-          <Parent_Custom_Hooks />
+          {/* <Parent_Custom_Hooks /> */}
+      </section>
+
+      <section>
+          <UniqueID />
+          <UniqueID />
       </section>
     </main>
   );
