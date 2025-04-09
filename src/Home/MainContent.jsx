@@ -1,5 +1,5 @@
 import React from "react";
-import Importer from "../Importer";
+import Importer from '../components/Importer'
 
 const MainContent = () => {
   return (
