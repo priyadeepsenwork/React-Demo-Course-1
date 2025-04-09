@@ -11,7 +11,7 @@ const App = () => {
         <Header />
         {/* <WelcomeMessage />  */}
         {/* <MainContent /> */}
-        <Footer />
+        {/* <Footer /> */}
       </section>
     </>
   );
